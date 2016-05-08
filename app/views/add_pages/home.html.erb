@@ -1,12 +1,22 @@
-<% provide(:title, "Home")%>
-<!DOCTYPE html>
+<div class="center jumbotron">
+  <h1>Just another Web App by <a href="https://github.com/appwebtech">Josembi</a></h1>
+<hr>
+<h2>Home page for the <a href="http://theappwebtech.com">appwebtech</a>  </h2>
+ <hr>
+ <br>
 
-<h1>Just another Web App</h1>
+<%= link_to "Sign up now!", '#', class: "btn btn-lg btn-success" %>
+<br><br>
 
 <p>
   Learning Technology is the best way forward as far as personal development is concerned.
 </p>
-<hr>
+
 <p>
-  For your personalised company/personal web app you can contact <a href="theappwebtech.com">appwebtech.</a> Mockups to be send within 24 hrs.
+  For your personalised company or personal web app you can contact the <a href="theappwebtech.com">appwebtech.</a> <br>Mockups to be send within 24 hrs.
 </p>
+ 
+</div>
+<%= link_to image_tag("josembi.png", alt: "Rails logo"), '/assets/images' %>
+
+
