@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'add_pages/home'
+
+  get 'add_pages/help'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
