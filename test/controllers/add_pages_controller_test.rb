@@ -19,4 +19,10 @@ class AddPagesControllerTest < ActionController::TestCase
     assert_response :success
     assert_select "title", "About | Josembi's new app"
   end
+
+    test "should get contact" do
+    get :contact
+    assert_response :success
+    assert_select "title", "Contact | Josembi's new app"
+  end
 end
