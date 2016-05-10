@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'about'   => 'add_pages#about'
   get 'contact' => 'add_pages#contact'
   get 'signup'  => 'users#new'
-
+  resources :users
 end
 
   
